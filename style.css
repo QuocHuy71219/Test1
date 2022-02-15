@@ -24,10 +24,12 @@ height: 935px;
 .side-bar li{
     height: 44px;
 width: 150px;
-left: 0px;
-top: 0px;
-border-radius: 0px;
+border: 1px solid #5C5C5C;
+padding: 14px 77px 11px 16px;
+}
 
+.side-bar li:not(:first-child) {
+    color: #AAAAAA;
 }
 
 .side-bar li:hover {
@@ -61,7 +63,7 @@ margin: 26px 129px 40px 129px;
 .title {
     width: 241px;
 height: 21px;
-    font-family: Roboto;
+    font-family: 'Roboto';
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
@@ -72,7 +74,7 @@ line-height: 21px;
     width: 972px;
 height: 95px;
 
-font-family: Roboto;
+font-family: 'Roboto';
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -109,7 +111,7 @@ margin: 0px 129px 182px 50px;
     width: 470px;
 height: 28px;
 
-font-family: Roboto;
+font-family: 'Roboto';
 font-style: normal;
 font-weight: bold;
 font-size: 24px;
@@ -125,7 +127,7 @@ line-height: 28px;
     width: 326px;
 height: 134px;
 
-font-family: Roboto;
+font-family: 'Roboto';
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -136,7 +138,7 @@ line-height: 19px;
     width: 470px;
 height: 72px;
 
-font-family: Roboto;
+font-family: 'Roboto';
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -153,7 +155,7 @@ border: 1px solid #DEDEDE;
     width: 125px;
 height: 19px;
 
-font-family: Roboto;
+font-family: 'Roboto';
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
