@@ -42,9 +42,9 @@ border-radius: 0px;
 }
 
 .logo {
-    margin: 20px 729px 30px 729px;
     display: block;
     margin: 0 auto;
+     padding: 20px 0px 0px 0px; 
 }
 
 .banner {
@@ -56,7 +56,7 @@ border-radius: 0px;
     /* width: 1510px; */
 height: 210px;
 background: #EFEFEF;
-margin: 30px 129px 40px 129px;
+margin: 26px 129px 40px 129px;
 }
 .title {
     width: 241px;
