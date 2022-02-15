@@ -9,7 +9,7 @@
     
 }
 .side-bar {
-    background-color: black;
+    background-color: #191718;
     color: white;
 font-size: 16px;
 font-style: normal;
@@ -17,7 +17,8 @@ font-weight: 700;
 line-height: 19px;
 letter-spacing: 0em;
 text-align: left;
-   
+width: 150px;
+height: 935px;
 }
 
 .side-bar li{
@@ -33,33 +34,130 @@ border-radius: 0px;
     background-color:#5C5C5C;
 }
 
+.cta {
+    display: flex;
+    flex-flow: column wrap;
+    width: 1768px;
+    height: 935px;
+}
+
 .logo {
+    margin: 20px 729px 30px 729px;
     display: block;
     margin: 0 auto;
 }
 
 .banner {
+    width: auto;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    width: 1510px;
+    /* width: 1510px; */
 height: 210px;
-
 background: #EFEFEF;
+margin: 30px 129px 40px 129px;
 }
 .title {
+    width: 241px;
+height: 21px;
     font-family: Roboto;
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
 line-height: 21px;
 }
+
 .title__content {
-    overflow: hidden;
+    width: 972px;
+height: 95px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+margin: 18px 269px 38px 269px;
 }
+
 .content {
     display: flex;
-    flex-flow: row wrap;
-    
+    flex-flow: row nowrap;
+}
+
+.content__item1 {
+    width: 470px;
+height: 252px;
+margin: 0px 50px 182px 129px;
+}
+
+.content__item2 {
+    width: 470px;
+height: 252px;
+}
+
+.content__item3 {
+    width: 470px;
+height: 252px;
+margin: 0px 129px 182px 50px;
+}
+
+.content__title {
+    width: 470px;
+height: 28px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+}
+
+.content__info {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.desc {
+    width: 326px;
+height: 134px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+}
+
+.desc__detail {
+    width: 470px;
+height: 72px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+}
+
+.foot {
+    width: 1768px;
+    height: 79px;
+border: 1px solid #DEDEDE;
+}
+
+.foot__content {
+    width: 125px;
+height: 19px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #3E3E3E;
+margin: 30px 1514px 30px 129px;
 }
